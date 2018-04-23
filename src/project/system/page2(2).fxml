@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane2" prefHeight="735.0" prefWidth="1074.0" styleClass="ima" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.system.Page2Controller">
+   <children>
+      <Button id="create" disable="true" layoutX="104.0" layoutY="292.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="289.0" style="-fx-background-color: black;" styleClass="create" text="Create Group" textFill="#fffbfb">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button disable="true" layoutX="667.0" layoutY="292.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="289.0" style="-fx-background-color: black;" text="View Group" textFill="#e8a5a5">
+          
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="goahead" layoutX="862.0" layoutY="562.0" mnemonicParsing="false" text="GOAHEAD" />
+      <Button fx:id="edit" layoutX="823.0" layoutY="83.0" mnemonicParsing="false" onAction="#editgroupdetails" text="Edit group details" />
+      <Button layoutX="72.0" layoutY="83.0" mnemonicParsing="false" onAction="#gotologin" text="logout" />
+      <Button layoutX="455.0" layoutY="83.0" mnemonicParsing="false" onAction="#gotopage2" text="go back" />
+   </children>
+</AnchorPane>

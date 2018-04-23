@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="656.0" prefWidth="651.0" styleClass="page1" stylesheets="@../../../../../../Desktop/user.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.system.FXMLDocumentController">
+    <children>
+      <Label id="username" layoutX="35.0" layoutY="131.0" prefHeight="48.0" prefWidth="171.0" stylesheets="@../../../../../../Desktop/user.css" text="Username">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.06310679611650483" endY="0.9368932038834952" startX="0.05825242718446602" startY="0.49029126213592233">
+               <stops>
+                  <Stop color="#0d0101fc" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField layoutX="27.0" layoutY="179.0" prefHeight="38.0" prefWidth="367.0" promptText="Username" fx:id="username" />
+      <Label layoutX="35.0" layoutY="259.0" prefHeight="48.0" prefWidth="171.0" text="Passsword">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.06310679611650483" endY="0.9368932038834952" startX="0.05825242718446602" startY="0.5533980582524272">
+               <stops>
+                  <Stop color="#0d0101fc" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <PasswordField layoutX="27.0" layoutY="307.0" prefHeight="38.0" prefWidth="367.0" promptText="password" fx:id="password"/>
+      <Button layoutX="231.0" layoutY="416.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="171.0" styleClass="button1" stylesheets="@../../../../../../Desktop/user.css" text="LOGIN" textAlignment="CENTER" textOverrun="CLIP" onAction="#check" >
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="171.0" layoutY="38.0" prefHeight="55.0" prefWidth="310.0" text="Login Page">
+         <font>
+            <Font name="Arial Italic" size="54.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.06310679611650483" endY="0.9368932038834952" startX="0.05825242718446602" startY="0.5533980582524272">
+               <stops>
+                  <Stop color="#0d0101fc" />
+                  <Stop color="#00000012" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+    </children>
+</AnchorPane>

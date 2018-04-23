@@ -1,0 +1,13 @@
+
+
+.button1{
+	-fx-background-color:#a9a9a9;
+	-fx-text-fill:black;
+	-fx-border: 2px solid #4CAF50;
+}
+.page1{
+	-fx-background-image: url("Blue-wavy-nice-background.jpg");
+}
+.img{
+    -fx-background-image: url("Blue-wavy-nice-background.jpg");
+}

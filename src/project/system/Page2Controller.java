@@ -43,6 +43,7 @@ import static project.system.SubjectsController.primaryStage;
  *
  * @author mehulkothari
  */
+//view group and create group
 public class Page2Controller implements Initializable {
      public TextField name2;
     static Parent root;

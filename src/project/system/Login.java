@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  * @author mehulkothari
  */
 public class Login {
-    Connection conn;
+    Connection conn=null;
     public boolean isLogin(String username, String pass) throws SQLException
     {
         conn=DatabaseConnection.Connector();

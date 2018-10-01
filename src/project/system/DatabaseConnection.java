@@ -15,6 +15,7 @@ import java.util.logging.Logger;
  *
  * @author mehulkothari
  */
+//database connector class
 public class DatabaseConnection {
     public static Connection Connector() {
         Connection conn=null;

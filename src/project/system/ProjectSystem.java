@@ -20,6 +20,7 @@ import javafx.stage.Stage;
  *
  * @author mehulkothari
  */
+//entry file.
 public class ProjectSystem extends Application {
     Parent root;
     Connection conn;
@@ -37,6 +38,7 @@ public class ProjectSystem extends Application {
 		 
 		System.out.print("Your IP address is " + s);
                 boolean check2=login.firsttimelogin(s);
+		//check for logged in user
                 if(check2)
                 {
                     System.out.println("second page will open");
